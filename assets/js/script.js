@@ -46,7 +46,7 @@ const to = urlParams.get("to");
 if (to) document.getElementById("guest-name").innerText = to;
 
 // Countdown
-const target = new Date("March 30, 2026 00:00:00").getTime();
+const target = new Date("March 29, 2026 00:00:00").getTime();
 const countdownEl = document.getElementById("countdown");
 
 setInterval(() => {
@@ -124,3 +124,4 @@ function handleRSVP(e) {
   lucide.createIcons();
   e.target.reset();
 }
+
